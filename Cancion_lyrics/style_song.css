@@ -1,0 +1,77 @@
+/*
+@import url('https://googleapis.com');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+*/
+
+
+@font-face{
+    font-family: "fuente-crayon";
+    /*fuente DK crayon*/
+    src: url("assets/fuentes/fuente-crayon.ttf") format("truetype");
+}
+
+header img{
+    width: 40vw;
+
+}
+
+body{
+    background-color:rgb(200 25 32) ;
+    /* align-content: center; */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "fuente-crayon",sans-serif;
+    color: aliceblue;
+}
+
+.principal{
+    color: rgb(243 184 6);
+    font-size: 6em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#titulo{
+    color: rgb(0 163 207);
+    font-size: 4em;
+    border-color: antiquewhite;
+    border-style: dashed;
+    border-radius: 10px;
+    background-color: rgb(119, 24, 27);
+    /* padding: 8px; */
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+#subtitulo{
+    color: rgb(0 163 207);
+    font-size: 1.5em;
+}
+
+
+article p{
+    font-size: 2em;
+    /* align-items: center; */
+    align-content: center;
+}
+
+
+article p{
+    font-size: 2.5em;
+    /* align-items: center; */
+    align-content: center;
+}
+
+/* impar tr:nth-child(odd) */
+article p:nth-child(even){
+color: rgb(40 160 65);
+font-style:oblique;
+font-weight: bold;
+
+}
